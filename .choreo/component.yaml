@@ -1,0 +1,13 @@
+# Replace this with the contents of your generated component.yaml file.
+# Example placeholder:
+apiVersion: choreo.dev/v1alpha1
+kind: Component
+metadata:
+  name: my-component
+spec:
+  type: webapp
+  build:
+    context: .
+    dockerfile: Dockerfile
+  run:
+    command: ["npm", "start"]
